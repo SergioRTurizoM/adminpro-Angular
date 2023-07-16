@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 
 
@@ -10,10 +10,9 @@ import { Component, Input } from '@angular/core';
 })
 export class Grafica1Component {
 
-
-
- public labels1: string[] = [ 'Pan', 'Refresco', 'Queso' ];
-
-public data1  = [[10, 15, 40]]
+  public labels1: string[] = ['Pan', 'Refresco', 'Tacos'];
+  public data1 = [
+    [10, 15, 40],
+  ];
 
 }
